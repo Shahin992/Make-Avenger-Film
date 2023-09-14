@@ -11,10 +11,10 @@ const Cart = ({cart,totalCoast,totalRemaining}) => {
 
 
         <div className='w-1/3 ml-10'>
-             <h3 className=' text-4xl text-white font-semibold  mb-7'>Your Total Coast:{totalCoast}$</h3>
+             <h3 className=' text-3xl text-white font-semibold  mb-7'>Total Coast:{totalCoast}$</h3>
 
-          <h3 className=' text-4xl text-white font-semibold  mb-7'>Your Remaining Total: {totalRemaining}$</h3>
-          <h3 className=' text-4xl text-white font-semibold  mb-7'>Your Selected list are below:</h3>
+          <h3 className=' text-3xl text-white font-semibold  mb-7'>Remaining Balance:{totalRemaining}$</h3>
+          <h3 className=' text-3xl text-white font-semibold  mb-7'>Your Selected list are below:</h3>
           
 
        
